@@ -15,7 +15,7 @@ def timer():
       time.sleep(2)
       counter = counter + 1
    print("\a", end='', flush=True)   
-   messagebox.showinfo("Вопрос", "Есть ли биллеты на 21-12-2025 ?")
+   messagebox.showinfo("Вопрос", "Есть ли биллеты на Февраль-2026-года ?")
    root.destroy()
    current_datetime = datetime.now()
    print(f"Текущая дата и время: {current_datetime}")
