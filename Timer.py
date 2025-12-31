@@ -15,12 +15,12 @@ def timer():
       time.sleep(2)
       counter = counter + 1
    print("\a", end='', flush=True)   
-   messagebox.showinfo("Вопрос", "Есть ли биллеты на Февраль-2026-года ?")
+   messagebox.showinfo("Вопрос", "Есть ли биллеты на 01-02-2026 ?")
    root.destroy()
    current_datetime = datetime.now()
    print(f"Текущая дата и время: {current_datetime}")
 
 while True:
    timer()
-   time.sleep(3600)#3600 - 1 час
+   time.sleep(1800)#3600 - 1 час
                    #1800 - это тридцать минут:: с такой настройкой покупал биллеты.
